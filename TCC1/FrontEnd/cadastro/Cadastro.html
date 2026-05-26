@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../cadastro/cadastro.css">
+  <title>Cadastro Nexus</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="logo">
+      <img src="../img/NexusS.png" alt="Logo Nexus">
+    </div>
+
+    <h1>Criar sua conta</h1>
+    <p class="subtitle">Junte-se à comunidade Nexus</p>
+
+    <form>
+
+      <div class="input-group">
+        <label>Nome completo</label>
+        <input type="text">
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email">
+      </div>
+
+      <div class="input-group">
+        <label>Data de nascimento</label>
+        <input type="date">
+      </div>
+
+      <div class="input-group">
+        <label>Escolaridade</label>
+        <select>
+          <option>Selecione</option>
+          <option>Ensino Fundamental</option>
+          <option>Ensino Médio</option>
+          <option>Técnico</option>
+          <option>Superior</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label>Usuário</label>
+        <input type="text">
+      </div>
+
+      <div class="input-group">
+        <label>Senha</label>
+        <input type="password">
+      </div>
+
+      <div class="input-group">
+        <label>Confirmar senha</label>
+        <input type="password">
+      </div>
+
+      <div class="input-group">
+        <label>Comprovante de matrícula SENAI</label>
+        <p class="info">Caso for ex-aluno, certificado de conclusão de curso</p>
+
+        <label class="upload-box">
+          Clique para enviar arquivo
+          <input type="file" hidden>
+        </label>
+      </div>
+
+      <button class="btn">Cadastrar</button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
