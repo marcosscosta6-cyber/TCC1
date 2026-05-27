@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -15,81 +16,102 @@
 </head>
 <body>
 
+
 <!-- Header -->
 <header>
   <div class="Logo">
-    <img src="../img/NexusS.png" alt="Logo Nexus"> 
-    <h3 class = "fw-bold text-white">Nexus</h3>
-    </div>
+    <img src="../img/NexusS.png" alt="Logo Nexus">
+    <h3 class = "nexus">Nexus</h3>
+  </div>
+
 
     <div class="Header1">
     <ul>
-      <li> <a href="">Recursos </a> </li> 
-      <li> <a href="">Depoimentos </a> </li> 
+      <li> <a href="">Recursos </a> </li>
+      <li> <a href="">Depoimentos </a> </li>
       <li> <a href="">Blog </a> </li>
     </ul>
 
-  <button class="btn btn-light" id="Entrar">Entrar</button>
-  <button class= "btn roxo" id="Cadastro" onclick=Cadastro() >Cadastrar</button>
+
+    <button class="btn btn-light" id="Entrar">Entrar</button>
+    <button class= "btn roxo" id="Cadastro" onclick=Cadastro() >Cadastrar</button>
+
 
 </div>
 </header>
+
+
 
 
 <!-- Main -->
 <main>
   <div class="hero">
 
+
   <div class="inicio">
     <h1>Conectando Talentos.</h1>
     <h1>Construindo o <span class="futuro">Futuro.</span></h1>
+
 
     <p>
       A plataforma oficial para alunos e ex-alunos do SENAI colaborarem,
       desenvolverem projetos e transformarem ideias em soluções reais.
     </p>
 
+
     <div class="area-busca">
+
 
       <div class="busca">
         <input type="text" placeholder="Buscar por área, habilidade...">
       </div>
+
 
       <button class="como-funciona">
         <i class="fa-solid fa-play"></i>
         Saiba como funciona
       </button>
 
+
     </div>
 
+
   </div>
+
 
   <div class="hero-img">
     <img src="../img/img inicio.png" alt="Equipe de profissionais conectados">
   </div>
 
+
   </div>
-  
+ 
   <div class="desc">
+
 
   <div class="card-desc">
     <h5>Match inteligente</h5>
     <p>Encontre pessoas compatíveis com seus objetivos e habilidades.</p>
   </div>
 
+
   <div class="card-desc">
     <h5>Times completos</h5>
     <p>Monte seu time com todas as áreas que seu projeto precisa.</p>
   </div>
+
 
   <div class="card-desc">
     <h5>Conexões seguras</h5>
     <p>Ambiente seguro e profissional para criar relações reais.</p>
   </div>
 
+
   </div>
 
+
   <h2>Profissionais em <span>destaque</span></h2>
+
 
   <div class="profissionais">
     <div class="marcos">
@@ -110,6 +132,7 @@
       </button>
     </div>
 
+
     <div class="mariana">
       <img src="../img/download 3.svg" alt="Mulher com foto estilo profissional">
       <p class="nome">Mariana Costa</P>
@@ -127,6 +150,7 @@
         Ver Perfil
       </button>
     </div>
+
 
     <div class="carlos">
       <img src="../img/download.jpg" alt="Mulher com foto estilo profissional">
@@ -148,9 +172,11 @@
   </div>
 </main>
 
+
 <!-- Footer -->
 <footer class="footer">
     <div class="footer-top"></div>
+
 
     <div class="footer-content">
         <div class="footer-info">
@@ -160,20 +186,25 @@
             </p>
         </div>
 
+
         <div class="footer-links">
             <a href="#">Política de Privacidade</a>
         </div>
     </div>
 
+
     <hr>
+
 
     <div class="footer-bottom">
         <p>© 2026 Nexus. Todos os direitos reservados.</p>
+
 
         <div class="footer-icons">
             <a href="#">
                 <img src="../img/linkedin 1.svg" alt="LinkedIn">
             </a>
+
 
             <a href="#">
                 <img src="../img/o-email 1.svg" alt="Email">
@@ -183,31 +214,38 @@
 </footer>
 
 
+
+
 <!-- Aqui é a parte do botão de Login -->
 <div class="overlay" id="overlay">
 
+
   <form class="login-box">
-    
-    <img src="../img/NexusS.png" 
-         alt="Logo Nexus" 
-         width="100" 
+   
+    <img src="../img/NexusS.png"
+         alt="Logo Nexus"
+         width="100"
          height="100">
+
 
     <span class="text-black fechar" id="fechar">
       <h4>X</h4>
     </span>
+
 
     <h2 class="text-black">Bem-vindo de volta</h2>
     <p class="text-black">
       Faça login para acessar sua conta
     </p>
 
+
     <div class="loginIN">
+
 
       <label for="usuario" class="text-black">
         Usuário:
       </label>
-      <input 
+      <input
         class="text-white"
         type="text"
         id="usuario"
@@ -216,11 +254,13 @@
         autocomplete="email"
         required>
 
+
       <label for="senha" class="text-black">
         Senha:
       </label>
 
-      <input 
+
+      <input
         class="text-white"
         type="password"
         id="senha"
@@ -229,35 +269,45 @@
         autocomplete="current-password"
         required>
 
-      <a href="redsenha.html" class="esqueceu">
+
+      <a href="../redsenha/redsenha.html" class="esqueceu">
         Esqueceu sua senha?
       </a>
 
+
     </div>
+
 
     <br>
 
-    <button 
+
+    <button
       type="submit"
       class="btn w-100 text-white rounded-pill BotEn">
       Entrar
     </button>
 
+
     <p class="text-black">
       Não tem uma conta?
 
-      <a href="Cadastro.html" class="text-purple">
+
+      <a href="../cadastro/Cadastro.html" class="text-purple">
         Cadastre-se
       </a>
     </p>
 
+
   </form>
+
 
   </div>
 
-  
-  <script src="../Js/inicio.js"></script>
 
-  
+ 
+  <script src="../js/inicio.js"></script>
+
+
+ 
 </body>
 </html>
