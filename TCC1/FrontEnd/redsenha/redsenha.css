@@ -1,9 +1,11 @@
-  *{
+  
+*{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: "Be Vietnam Pro", sans-serif;
     }
+
 
     body{
       background: #050816;
@@ -15,7 +17,9 @@
       position: relative;
     }
 
+
     /* FUNDO */
+
 
     .bg{
       position: absolute;
@@ -27,7 +31,9 @@
       filter: blur(20px);
     }
 
+
     /* CARD */
+
 
     .container{
       width: 420px;
@@ -39,22 +45,27 @@
       box-shadow: 0 0 40px rgba(0,0,0,0.4);
     }
 
+
     .logo{
       display: flex;
       justify-content: center;
       margin-bottom: 15px;
     }
 
+
     .logo img{
       width: 70px;
     }
+
 
     h1{
       text-align: center;
       font-size: 26px;
       margin-bottom: 10px;
       color: #111;
+          font-family: "Be Vietnam Pro",sans-serif;
     }
+
 
     .subtitulo{
       text-align: center;
@@ -62,11 +73,14 @@
       color: #555;
       margin-bottom: 30px;
       line-height: 22px;
+          font-family: "Be Vietnam Pro",sans-serif;
     }
+
 
     .input-box{
       margin-bottom: 18px;
     }
+
 
     .input-box label{
       display: block;
@@ -74,7 +88,9 @@
       font-size: 14px;
       font-weight: bold;
       color: #222;
+          font-family: "Be Vietnam Pro",sans-serif;
     }
+
 
     .input-box input{
       width: 100%;
@@ -88,9 +104,11 @@
       transition: 0.3s;
     }
 
+
     .input-box input:focus{
       box-shadow: 0 0 10px #7a00ff;
     }
+
 
     .btn{
       width: 100%;
@@ -103,21 +121,27 @@
       font-weight: bold;
       margin-top: 10px;
       transition: 0.3s;
+          font-family: "Be Vietnam Pro",sans-serif;
     }
+
 
     .btn:hover{
       transform: scale(1.02);
       box-shadow: 0 0 15px rgba(122,0,255,0.5);
     }
 
+
     .voltar{
       text-align: center;
       margin-top: 20px;
       font-size: 14px;
+          font-family: "Be Vietnam Pro",sans-serif;
     }
+
 
     .voltar a{
       color: #7a00ff;
       text-decoration: none;
       font-weight: bold;
+          font-family: "Be Vietnam Pro",sans-serif;
     }
