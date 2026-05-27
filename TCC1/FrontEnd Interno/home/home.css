@@ -35,12 +35,42 @@ body{
     left:0;
 }
 
+/* PERFIL    */
+
+.perfil-sidebar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.perfil-sidebar img{
+    width: 52px;
+    height: 52px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.perfil-sidebar h5{
+    font-size: 17px;
+}
+
+.perfil-sidebar p{
+    color: #9ca3af;
+    font-size: 15px;
+}
+
+
 /* LOGO */
 
 .logo{
     display: flex;
     align-items: center;
     gap: 12px;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 .logo h2{
     color: white;
@@ -53,7 +83,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top:40px;
+    margin-top:1px;
 }
 
 /* opções do menu */
@@ -508,5 +538,4 @@ header{
         width: 100%;
     }
 }
-
 
